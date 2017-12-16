@@ -10,4 +10,6 @@ if (WIN32)
 	find_package(fmt REQUIRED)
 endif()
 
+enable_testing()
+
 add_subdirectory("otus.lessons.01.02")

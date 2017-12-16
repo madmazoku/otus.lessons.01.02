@@ -29,5 +29,4 @@ endif()
 
 target_link_libraries(otus.lessons.01.02.test ${Boost_LIBRARIES})
 
-enable_testing()
 add_test(test otus.lessons.01.02.test)
