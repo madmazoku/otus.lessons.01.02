@@ -11,20 +11,24 @@
             "cmakeCommandArgs": "",
             "buildCommandArgs": "",
             "ctestCommandArgs": "",
-            "variables": [
-                {
-                    "name": "CMAKE_C_COMPILER",
-                    "value": "cl.exe"
-                },
-                {
-                    "name": "CMAKE_CXX_COMPILER",
-                    "value": "cl.exe"
-                },
-                {
-                    "name": "CMAKE_SYSTEM_NAME",
-                    "value": "Windows"
-                }
-            ]
+          "variables": [
+            {
+              "name": "CMAKE_TOOLCHAIN_FILE",
+              "value": "E:/Git/vcpkg/scripts/buildsystems/vcpkg.cmake"
+            },
+            {
+              "name": "CMAKE_C_COMPILER",
+              "value": "cl.exe"
+            },
+            {
+              "name": "CMAKE_CXX_COMPILER",
+              "value": "cl.exe"
+            },
+            {
+              "name": "CMAKE_SYSTEM_NAME",
+              "value": "Windows"
+            }
+          ]
         },
         {
             "name": "x86-Release",
@@ -36,20 +40,24 @@
             "cmakeCommandArgs": "",
             "buildCommandArgs": "",
             "ctestCommandArgs": "",
-            "variables": [
-                {
-                    "name": "CMAKE_C_COMPILER",
-                    "value": "cl.exe"
-                },
-                {
-                    "name": "CMAKE_CXX_COMPILER",
-                    "value": "cl.exe"
-                },
-                {
-                    "name": "CMAKE_SYSTEM_NAME",
-                    "value": "Windows"
-                }
-            ]
+          "variables": [
+            {
+              "name": "CMAKE_TOOLCHAIN_FILE",
+              "value": "E:/Git/vcpkg/scripts/buildsystems/vcpkg.cmake"
+            },
+            {
+              "name": "CMAKE_C_COMPILER",
+              "value": "cl.exe"
+            },
+            {
+              "name": "CMAKE_CXX_COMPILER",
+              "value": "cl.exe"
+            },
+            {
+              "name": "CMAKE_SYSTEM_NAME",
+              "value": "Windows"
+            }
+          ]
         },
         {
             "name": "x64-Debug",
@@ -61,20 +69,24 @@
             "cmakeCommandArgs": "",
             "buildCommandArgs": "",
             "ctestCommandArgs": "",
-            "variables": [
-                {
-                    "name": "CMAKE_C_COMPILER",
-                    "value": "cl.exe"
-                },
-                {
-                    "name": "CMAKE_CXX_COMPILER",
-                    "value": "cl.exe"
-                },
-                {
-                    "name": "CMAKE_SYSTEM_NAME",
-                    "value": "Windows"
-                }
-            ]
+          "variables": [
+            {
+              "name": "CMAKE_TOOLCHAIN_FILE",
+              "value": "E:/Git/vcpkg/scripts/buildsystems/vcpkg.cmake"
+            },
+            {
+              "name": "CMAKE_C_COMPILER",
+              "value": "cl.exe"
+            },
+            {
+              "name": "CMAKE_CXX_COMPILER",
+              "value": "cl.exe"
+            },
+            {
+              "name": "CMAKE_SYSTEM_NAME",
+              "value": "Windows"
+            }
+          ]
         },
         {
             "name": "x64-Release",
@@ -86,20 +98,24 @@
             "cmakeCommandArgs": "",
             "buildCommandArgs": "",
             "ctestCommandArgs": "",
-            "variables": [
-                {
-                    "name": "CMAKE_C_COMPILER",
-                    "value": "cl.exe"
-                },
-                {
-                    "name": "CMAKE_CXX_COMPILER",
-                    "value": "cl.exe"
-                },
-                {
-                    "name": "CMAKE_SYSTEM_NAME",
-                    "value": "Windows"
-                }
-            ]
+          "variables": [
+            {
+              "name": "CMAKE_TOOLCHAIN_FILE",
+              "value": "E:/Git/vcpkg/scripts/buildsystems/vcpkg.cmake"
+            },
+            {
+              "name": "CMAKE_C_COMPILER",
+              "value": "cl.exe"
+            },
+            {
+              "name": "CMAKE_CXX_COMPILER",
+              "value": "cl.exe"
+            },
+            {
+              "name": "CMAKE_SYSTEM_NAME",
+              "value": "Windows"
+            }
+          ]
         }
     ]
 }
