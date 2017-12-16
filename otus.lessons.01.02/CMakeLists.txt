@@ -4,4 +4,6 @@ add_executable(
 )
 
 target_link_libraries(otus.lessons.01.02 spdlog::spdlog ${CMAKE_THREAD_LIBS_INIT})
-target_link_libraries(otus.lessons.01.02 fmt::fmt fmt::fmt-header-only)
+if (WIN32)
+	target_link_libraries(otus.lessons.01.02 fmt::fmt fmt::fmt-header-only)
+endif()

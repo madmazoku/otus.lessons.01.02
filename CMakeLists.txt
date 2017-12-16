@@ -4,6 +4,9 @@ project(otus.lessons.01.02)
 
 find_package(spdlog CONFIG REQUIRED)
 find_package(Threads)
-find_package(fmt REQUIRED)
+
+if (WIN32)
+	find_package(fmt REQUIRED)
+endif()
 
 add_subdirectory("otus.lessons.01.02")
