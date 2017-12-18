@@ -3,11 +3,12 @@ cmake_minimum_required(VERSION 3.2)
 project(otus.lessons.01.02)
 
 find_package(Boost COMPONENTS unit_test_framework REQUIRED)
-find_package(spdlog CONFIG REQUIRED)
-find_package(Threads)
+find_package(Threads REQUIRED)
+find_package(SDL2 REQUIRED)
 
 if (WIN32)
-	find_package(fmt REQUIRED)
+    find_package(spdlog CONFIG REQUIRED)
+    find_package(fmt REQUIRED)
 endif()
 
 enable_testing()
