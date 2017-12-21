@@ -14,7 +14,6 @@ if (NOT WIN32)
         CXX_STANDARD_REQUIRED ON
         COMPILE_OPTIONS -Wpedantic -Wall -Wextra
     )
-
 endif()
 
 set_target_properties(otus.lessons.01.02.test PROPERTIES
